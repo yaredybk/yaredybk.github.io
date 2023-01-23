@@ -1,8 +1,0 @@
-<svg width="256" height="103" xmlns="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve">
- <g>
-  <title>Layer 1</title>
-  <path d="m238.31217,101.64726l-220.62153,0c-8.89927,0 -16.14064,-7.23856 -16.14064,-16.13783l0,-68.01605c0,-8.89927 7.24137,-16.14064 16.14064,-16.14064l220.62153,0c8.89927,0 16.13783,7.24137 16.13783,16.14064l0,68.01605c0,8.89927 -7.23856,16.13783 -16.13783,16.13783zm-220.62153,-94.67452c-5.80265,0 -10.52064,4.71799 -10.52064,10.52064l0,68.01605c0,5.79984 4.71799,10.51783 10.52064,10.51783l220.62153,0c5.79984,0 10.51783,-4.71799 10.51783,-10.51783l0,-68.01605c0,-5.79984 -4.71799,-10.52064 -10.51783,-10.52064l-220.62153,0z" stroke-linecap=" butt" stroke=" none" stroke-dasharray=" none" stroke-linejoin=" miter" stroke-miterlimit="10" fill=" rgb(0,0,0)" fill-rule=" nonzero" id="svg_8"/>
-  <text font-weight="bold" transform="matrix(1 0 0 1.3091 0 -33.1431)" stroke=" none" xml:space="preserve" text-anchor="start" font-family="'Gemunu Libre'" font-size="68" stroke-width="0" id="svg_9" y="85.42995" x="20.13763" stroke-dasharray=" none" fill="#000000">LOG OUT</text>
- </g>
-
-</svg>
