@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy for Finix Transaction</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 { color: #222; }
+        h2 {
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .contact-info { background: #f9f9f9; padding: 15px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Finix Transaction</h1>
+        <p><strong>Last Updated:</strong> January 17, 2026</p>
+
+        <p>
+            This Privacy Policy describes how <strong>Finix Transaction</strong> (the "App"), developed by <strong>finix et</strong> ("we," "us," or "our"), collects, uses, and handles your information. 
+            We are committed to protecting your privacy and ensuring transparency regarding how your data is handled.
+        </p>
+
+        <h2>1. Information Collection and Use</h2>
+        <p>The App automates financial transaction tracking by reading SMS messages from your financial institutions and forwarding them to a server URL provided by you. The App's functionality is entirely dependent on this data.</p>
+
+        <h3>A. SMS Data (Sensitive Information)</h3>
+        <ul>
+            <li><strong>What we collect:</strong> The App reads incoming SMS messages. Specifically, it accesses the sender's address and the full text body, which may contain <strong>personal financial information</strong> (e.g., transaction amounts).</li>
+            <li><strong>How we use it:</strong> If a message matches your filters (e.g., sender "CBE"), the App forwards the data to the <strong>Server URL you provide</strong>.</li>
+            <li><strong>Prominent Disclosure:</strong> The App provides a prominent disclosure and requires your explicit consent before accessing SMS data.</li>
+        </ul>
+
+        <h3>B. SIM Card & Device Information</h3>
+        <ul>
+            <li><strong>What we collect:</strong> We access carrier information (e.g., "ethio telecom") via <code>READ_PHONE_STATE</code>.</li>
+            <li><strong>Purpose:</strong> To ensure messages originate from legitimate mobile carriers. We do not collect or store your phone number, IMEI, or hardware IDs.</li>
+        </ul>
+
+        <h2>2. Data Retention and Deletion</h2>
+        <p>
+            <strong>Local Storage:</strong> If a sync fails, SMS data is stored temporarily in the App's private local database. You can clear this data at any time by clearing the App's cache or uninstalling the App.
+        </p>
+        <p>
+            <strong>User Account Deletion:</strong> Since this app does not require a cloud account on our servers, we do not store your data centrally. To "delete" your data, simply delete the data from your private server and uninstall the App from your device.
+        </p>
+
+        <h2>3. Data Sharing</h2>
+        <p><strong>We do not share, sell, or rent your personal information to third parties or advertisers.</strong> Data is only transmitted to the server endpoint that <strong>you</strong> explicitly configure in the App settings.</p>
+
+        <h2>4. Required Permissions</h2>
+        <ul>
+            <li><code>RECEIVE_SMS</code> & <code>READ_SMS</code>: Required to detect and process transaction alerts.</li>
+            <li><code>READ_PHONE_STATE</code>: Required to verify mobile carrier legitimacy.</li>
+            <li><code>INTERNET</code>: Required to transmit data to your designated server.</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
+        <p>This App is not intended for use by anyone under the age of 18. We do not knowingly collect information from children.</p>
+
+        <h2>6. Contact Us</h2>
+        <div class="contact-info">
+            <p>If you have questions about this policy, contact us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:finixet@gmail.com">finixet@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
